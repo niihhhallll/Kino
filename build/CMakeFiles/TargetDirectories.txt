@@ -1,0 +1,3 @@
+/home/gigu/cpp/Shell/build/CMakeFiles/Kino.dir
+/home/gigu/cpp/Shell/build/CMakeFiles/edit_cache.dir
+/home/gigu/cpp/Shell/build/CMakeFiles/rebuild_cache.dir
