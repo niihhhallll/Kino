@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gigu/cpp/Shell
+CMAKE_SOURCE_DIR = /home/gigu/cpp/Kino
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gigu/cpp/Shell/build
+CMAKE_BINARY_DIR = /home/gigu/cpp/Kino/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Kino.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/Kino.dir/progress.make
 include CMakeFiles/Kino.dir/flags.make
 
 CMakeFiles/Kino.dir/src/main.cpp.o: CMakeFiles/Kino.dir/flags.make
-CMakeFiles/Kino.dir/src/main.cpp.o: /home/gigu/cpp/Shell/src/main.cpp
+CMakeFiles/Kino.dir/src/main.cpp.o: /home/gigu/cpp/Kino/src/main.cpp
 CMakeFiles/Kino.dir/src/main.cpp.o: CMakeFiles/Kino.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/cpp/Shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kino.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kino.dir/src/main.cpp.o -MF CMakeFiles/Kino.dir/src/main.cpp.o.d -o CMakeFiles/Kino.dir/src/main.cpp.o -c /home/gigu/cpp/Shell/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/cpp/Kino/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kino.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kino.dir/src/main.cpp.o -MF CMakeFiles/Kino.dir/src/main.cpp.o.d -o CMakeFiles/Kino.dir/src/main.cpp.o -c /home/gigu/cpp/Kino/src/main.cpp
 
 CMakeFiles/Kino.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Kino.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/cpp/Shell/src/main.cpp > CMakeFiles/Kino.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/cpp/Kino/src/main.cpp > CMakeFiles/Kino.dir/src/main.cpp.i
 
 CMakeFiles/Kino.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Kino.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/cpp/Shell/src/main.cpp -o CMakeFiles/Kino.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/cpp/Kino/src/main.cpp -o CMakeFiles/Kino.dir/src/main.cpp.s
 
 CMakeFiles/Kino.dir/src/Console.cpp.o: CMakeFiles/Kino.dir/flags.make
-CMakeFiles/Kino.dir/src/Console.cpp.o: /home/gigu/cpp/Shell/src/Console.cpp
+CMakeFiles/Kino.dir/src/Console.cpp.o: /home/gigu/cpp/Kino/src/Console.cpp
 CMakeFiles/Kino.dir/src/Console.cpp.o: CMakeFiles/Kino.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/cpp/Shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kino.dir/src/Console.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kino.dir/src/Console.cpp.o -MF CMakeFiles/Kino.dir/src/Console.cpp.o.d -o CMakeFiles/Kino.dir/src/Console.cpp.o -c /home/gigu/cpp/Shell/src/Console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/cpp/Kino/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kino.dir/src/Console.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kino.dir/src/Console.cpp.o -MF CMakeFiles/Kino.dir/src/Console.cpp.o.d -o CMakeFiles/Kino.dir/src/Console.cpp.o -c /home/gigu/cpp/Kino/src/Console.cpp
 
 CMakeFiles/Kino.dir/src/Console.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Kino.dir/src/Console.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/cpp/Shell/src/Console.cpp > CMakeFiles/Kino.dir/src/Console.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/cpp/Kino/src/Console.cpp > CMakeFiles/Kino.dir/src/Console.cpp.i
 
 CMakeFiles/Kino.dir/src/Console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Kino.dir/src/Console.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/cpp/Shell/src/Console.cpp -o CMakeFiles/Kino.dir/src/Console.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/cpp/Kino/src/Console.cpp -o CMakeFiles/Kino.dir/src/Console.cpp.s
 
 CMakeFiles/Kino.dir/src/Process.cpp.o: CMakeFiles/Kino.dir/flags.make
-CMakeFiles/Kino.dir/src/Process.cpp.o: /home/gigu/cpp/Shell/src/Process.cpp
+CMakeFiles/Kino.dir/src/Process.cpp.o: /home/gigu/cpp/Kino/src/Process.cpp
 CMakeFiles/Kino.dir/src/Process.cpp.o: CMakeFiles/Kino.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/cpp/Shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Kino.dir/src/Process.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kino.dir/src/Process.cpp.o -MF CMakeFiles/Kino.dir/src/Process.cpp.o.d -o CMakeFiles/Kino.dir/src/Process.cpp.o -c /home/gigu/cpp/Shell/src/Process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/cpp/Kino/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Kino.dir/src/Process.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kino.dir/src/Process.cpp.o -MF CMakeFiles/Kino.dir/src/Process.cpp.o.d -o CMakeFiles/Kino.dir/src/Process.cpp.o -c /home/gigu/cpp/Kino/src/Process.cpp
 
 CMakeFiles/Kino.dir/src/Process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Kino.dir/src/Process.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/cpp/Shell/src/Process.cpp > CMakeFiles/Kino.dir/src/Process.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/cpp/Kino/src/Process.cpp > CMakeFiles/Kino.dir/src/Process.cpp.i
 
 CMakeFiles/Kino.dir/src/Process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Kino.dir/src/Process.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/cpp/Shell/src/Process.cpp -o CMakeFiles/Kino.dir/src/Process.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/cpp/Kino/src/Process.cpp -o CMakeFiles/Kino.dir/src/Process.cpp.s
 
 # Object files for target Kino
 Kino_OBJECTS = \
@@ -125,7 +125,7 @@ Kino: CMakeFiles/Kino.dir/src/Console.cpp.o
 Kino: CMakeFiles/Kino.dir/src/Process.cpp.o
 Kino: CMakeFiles/Kino.dir/build.make
 Kino: CMakeFiles/Kino.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gigu/cpp/Shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Kino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gigu/cpp/Kino/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Kino"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Kino.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/Kino.dir/clean:
 .PHONY : CMakeFiles/Kino.dir/clean
 
 CMakeFiles/Kino.dir/depend:
-	cd /home/gigu/cpp/Shell/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gigu/cpp/Shell /home/gigu/cpp/Shell /home/gigu/cpp/Shell/build /home/gigu/cpp/Shell/build /home/gigu/cpp/Shell/build/CMakeFiles/Kino.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gigu/cpp/Kino/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gigu/cpp/Kino /home/gigu/cpp/Kino /home/gigu/cpp/Kino/build /home/gigu/cpp/Kino/build /home/gigu/cpp/Kino/build/CMakeFiles/Kino.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Kino.dir/depend
 

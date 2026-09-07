@@ -41,8 +41,24 @@ void Console::GetUserName()
 // right now this is enough 
 void Console::WelcomeUser()
 {
+   std::string BriefIntro = R"(
+  _  ___              ____  _   _ 
+ | |/ (_)_ __   ___  / ___|| | | |
+ | ' /| | '_ \ / _ \ \___ \| |_| |
+ | . \| | | | | (_) | ___) |  _  |
+ |_|\_\_|_| |_|\___/ |____/|_| |_|
+ =================================
+ 🎬 KinoSH — The Anti-Ai Shell (v0.1)
+ ------------------------------------------------
+ • Creator:     Nihalllll
+ • History:     First Build In september 1 
+ • License:     MIT License (Open Source)
+
+ Type 'help' to show commands or 'scene' to view workspace.
+)";
     system("clear"); 
-    std::cout << color::GREEN << "Welcome Back " << color::RESET << color::PURPLE << this->UserName << color::RESET << std::endl; 
+    std::cout << color::RED << BriefIntro << color::RESET << std::endl; 
+    std::cout << std::endl; 
     return;
 }
 
@@ -51,7 +67,7 @@ void Console::PrintPrompt()
     char cwd[PATH_MAX]; 
     if(getcwd(cwd,sizeof(cwd)) != nullptr)
     {
-        std::cout << color::PURPLE << this->UserName << "@" << cwd << "> " << color::RESET; 
+        std::cout << color::PURPLE << this->UserName  << color::YELLOW << "~" << color::RESET << color::GREEN << cwd << "> " << color::RESET; 
     }
     else
     {

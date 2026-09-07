@@ -1,6 +1,6 @@
 CMakeFiles/Kino.dir/src/Console.cpp.o: \
- /home/gigu/cpp/Shell/src/Console.cpp /usr/include/stdc-predef.h \
- /home/gigu/cpp/Shell/src/../include/Console.h \
+ /home/gigu/cpp/Kino/src/Console.cpp /usr/include/stdc-predef.h \
+ /home/gigu/cpp/Kino/src/../include/Console.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -169,4 +169,4 @@ CMakeFiles/Kino.dir/src/Console.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/gigu/cpp/Shell/include/color.h
+ /home/gigu/cpp/Kino/include/color.h

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gigu/cpp/Shell
+CMAKE_SOURCE_DIR = /home/gigu/cpp/Kino
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gigu/cpp/Shell/build
+CMAKE_BINARY_DIR = /home/gigu/cpp/Kino/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Kino.dir/clean
 CMakeFiles/Kino.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kino.dir/build.make CMakeFiles/Kino.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kino.dir/build.make CMakeFiles/Kino.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gigu/cpp/Shell/build/CMakeFiles --progress-num=1,2,3,4 "Built target Kino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gigu/cpp/Kino/build/CMakeFiles --progress-num=1,2,3,4 "Built target Kino"
 .PHONY : CMakeFiles/Kino.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Kino.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/cpp/Shell/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/cpp/Kino/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Kino.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/cpp/Shell/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/cpp/Kino/build/CMakeFiles 0
 .PHONY : CMakeFiles/Kino.dir/rule
 
 # Convenience name for target.
