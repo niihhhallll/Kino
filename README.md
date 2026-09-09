@@ -8,9 +8,9 @@
 
 
 ~~~
-- [ ] REPL: Read,Execute,Write,Loop
-- [ ] Tokenization/Parsing: Split the arguments 
-- [ ] Execute: Fork/Exec 
+- [x] REPL: Read,Execute,Write,Loop
+- [x] Tokenization/Parsing: Split the arguments 
+- [x] Execute: Fork/Exec 
 
 ~~~
 
@@ -19,9 +19,9 @@
 - Build In Commands Should Be Fast and Stable
 - Need to Make It Work To Day
 ~~~
-- [ ] Directory Navigation: cd 
-- [ ] Exit: Terminate REPL 
-- [ ] pwd/echo: basic utilities
+- [x] Directory Navigation: cd 
+- [x] Exit: Terminate REPL 
+- [x] pwd/echo: basic utilities
 
 ~~~ 
 

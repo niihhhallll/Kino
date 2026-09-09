@@ -8,6 +8,11 @@
 
 class Process
 {
+    private:
+        std::vector<std::string>& ProcessInfo; 
     public:
-        int ExecuteProcess(std::vector<std::string>& ProcessInfo);   
+
+        Process(std::vector<std::string>& ProcessInfo) : ProcessInfo(ProcessInfo){} 
+        int ExecuteProcess();   
+        int CreateProcess(); 
 };

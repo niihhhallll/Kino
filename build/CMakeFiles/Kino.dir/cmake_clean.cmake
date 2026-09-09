@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Kino.dir/src/Process.cpp.o.d"
   "CMakeFiles/Kino.dir/src/main.cpp.o"
   "CMakeFiles/Kino.dir/src/main.cpp.o.d"
+  "CMakeFiles/Kino.dir/src/redirection.cpp.o"
+  "CMakeFiles/Kino.dir/src/redirection.cpp.o.d"
   "Kino"
   "Kino.pdb"
 )

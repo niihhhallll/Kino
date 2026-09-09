@@ -8,6 +8,7 @@
 #include <pwd.h>
 #include <cstdlib>
 #include <limits.h>
+#include <regex>
 #include <color.h>
 // Colors for terminal output 
 // used in Console class

@@ -1,14 +1,30 @@
 #include <Process.h>
 #include <color.h>
-int Process::ExecuteProcess(std::vector<std::string>& ProcessInfo)
+#include <redirection.hpp>
+
+int Process::CreateProcess()
+{
+    char* args[this->ProcessInfo.size() + 1];
+                
+    for(int i = 0; i < this->ProcessInfo.size();i++)
+     {
+        args[i] = (char*)this->ProcessInfo[i].c_str();
+     }
+                
+    args[this->ProcessInfo.size()] = NULL;
+    execvp(this->ProcessInfo[0].c_str(),args);
+}
+
+int Process::ExecuteProcess()
 {
             // for cd 
             // If this prints ["cd "] or ["cd
 // "], you have hidden characters!
 
-            if(ProcessInfo[0][0] == 'c' && ProcessInfo[0][1] == 'd')
+            
+            if(this->ProcessInfo[0] == "cd")
             {
-                int result = chdir(ProcessInfo[1].c_str());
+                int result = chdir(this->ProcessInfo[1].c_str());
                 if (result == 0)
                 {
                     return EXIT_SUCCESS;
@@ -16,10 +32,16 @@ int Process::ExecuteProcess(std::vector<std::string>& ProcessInfo)
                 else
                 {
                     std::cerr << color::RED << "No Directory Found." << color::RESET << std::endl;
+                    std::cout.flush(); 
                     return EXIT_FAILURE;
                 }
             }
-
+            if(this->ProcessInfo[0] == "exit")
+            {
+                std::cout << color::YELLOW << "Exiting.." << std::endl; 
+                return 100;
+            }
+        
             pid_t pid = fork(); 
             
             // less than zero means it forking failed. 
@@ -31,20 +53,11 @@ int Process::ExecuteProcess(std::vector<std::string>& ProcessInfo)
             // child process
             else if (pid == 0)
             {
-                char* args[ProcessInfo.size() + 1];
-                
-                for(int i = 0; i < ProcessInfo.size();i++)
-                {
-                    args[i] = (char*)ProcessInfo[i].c_str();
-                }
-                
-                args[ProcessInfo.size()] = NULL;
-                execvp(ProcessInfo[0].c_str(),args);
+                CreateProcess(); 
                 
                 // if the executation failed 
                 // failsafe code
                 std::cerr << color::RED << "Command Not Found." << color::RESET << std::endl;
-                std::cerr << "To Install " << args[0] << " Do sudo apt install " << args[0] << "." << std::endl;
                 exit(EXIT_FAILURE); 
             }
             else

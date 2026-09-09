@@ -201,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kino.dir/build.make CMakeFiles/Kino.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/redirection.o: src/redirection.cpp.o
+.PHONY : src/redirection.o
+
+# target to build an object file
+src/redirection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kino.dir/build.make CMakeFiles/Kino.dir/src/redirection.cpp.o
+.PHONY : src/redirection.cpp.o
+
+src/redirection.i: src/redirection.cpp.i
+.PHONY : src/redirection.i
+
+# target to preprocess a source file
+src/redirection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kino.dir/build.make CMakeFiles/Kino.dir/src/redirection.cpp.i
+.PHONY : src/redirection.cpp.i
+
+src/redirection.s: src/redirection.cpp.s
+.PHONY : src/redirection.s
+
+# target to generate assembly for a file
+src/redirection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kino.dir/build.make CMakeFiles/Kino.dir/src/redirection.cpp.s
+.PHONY : src/redirection.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/redirection.o"
+	@echo "... src/redirection.i"
+	@echo "... src/redirection.s"
 .PHONY : help
 
 
