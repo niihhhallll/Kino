@@ -2,6 +2,8 @@
 #include <color.h>
 #include <redirection.hpp>
 
+
+// this method 
 int Process::CreateProcess()
 {
     char* args[this->ProcessInfo.size() + 1];
@@ -15,6 +17,14 @@ int Process::CreateProcess()
     execvp(this->ProcessInfo[0].c_str(),args);
 }
 
+/*
+    ** INFO **
+    This method is for executing the command sented out by the user. 
+    This method is called after parsing the command sented out by the user, using the method in Console.cpp
+
+    ** USE CASE **
+    This method checks if it is a 
+*/
 int Process::ExecuteProcess()
 {
             // for cd 
@@ -45,11 +55,13 @@ int Process::ExecuteProcess()
             pid_t pid = fork(); 
             
             // less than zero means it forking failed. 
+            
             if(pid < 0)
             {
                 std::cerr << "Fork Failed" << std::endl; 
                 exit(EXIT_FAILURE); 
             }
+
             // child process
             else if (pid == 0)
             {
@@ -60,6 +72,7 @@ int Process::ExecuteProcess()
                 std::cerr << color::RED << "Command Not Found." << color::RESET << std::endl;
                 exit(EXIT_FAILURE); 
             }
+
             else
             {
                 int status; 
