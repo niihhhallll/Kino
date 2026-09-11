@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
-add_executable(Kino src/main.cpp src/Console.cpp src/Process.cpp)
+add_executable(Kino src/main.cpp src/Console.cpp src/Process.cpp src/redirection.cpp)
 
 target_include_directories(Kino PUBLIC include)

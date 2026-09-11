@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Kino.dir/src/main.cpp.o CMakeFiles/Kino.dir/src/Console.cpp.o CMakeFiles/Kino.dir/src/Process.cpp.o -o Kino 
+/usr/bin/c++ CMakeFiles/Kino.dir/src/main.cpp.o CMakeFiles/Kino.dir/src/Console.cpp.o CMakeFiles/Kino.dir/src/Process.cpp.o CMakeFiles/Kino.dir/src/redirection.cpp.o -o Kino 
