@@ -3,8 +3,8 @@
 
 CMakeFiles/Kino.dir/src/Console.cpp.o
  /home/gigu/cpp/Kino/src/Console.cpp
- /home/gigu/cpp/Kino/include/color.h
  /home/gigu/cpp/Kino/include/Console.h
+ /home/gigu/cpp/Kino/include/color.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

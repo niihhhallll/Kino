@@ -1,7 +1,7 @@
 CMakeFiles/Kino.dir/src/Process.cpp.o: \
  /home/gigu/cpp/Kino/src/Process.cpp /usr/include/stdc-predef.h \
- /home/gigu/cpp/Kino/include/Process.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /home/gigu/cpp/Kino/src/../include/Process.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -183,4 +183,5 @@ CMakeFiles/Kino.dir/src/Process.cpp.o: \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /home/gigu/cpp/Kino/include/color.h
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/gigu/cpp/Kino/src/../include/color.h

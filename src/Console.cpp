@@ -58,7 +58,9 @@ void Console::WelcomeUser()
 )";
     system("clear"); 
     std::cout << color::RED << BriefIntro << color::RESET << std::endl; 
+        std::cout.flush(); 
     std::cout << std::endl; 
+        std::cout.flush(); 
     return;
 }
 
@@ -67,14 +69,23 @@ void Console::PrintPrompt()
     char cwd[PATH_MAX]; 
     if(getcwd(cwd,sizeof(cwd)) != nullptr)
     {
-        std::cout << color::PURPLE << this->UserName  << color::YELLOW << "~" << color::RESET << color::GREEN << cwd << "> " << color::RESET; 
+        std::cout << color::PURPLE << this->UserName  << color::YELLOW << "~" << color::RESET << color::GREEN << cwd << "> " << color::RESET;
+        
+        std::cout.flush(); 
     }
     else
     {
         std::cout << color::PURPLE << this->UserName << color::RESET; 
+        std::cout.flush(); 
     }
 
     return;
+}
+
+std::string TrimNullByte(std::string& ref)
+{
+    ref.erase(ref.find('\0')); 
+    return ref; 
 }
 
 std::vector<std::string> Console::ReadInput()
@@ -82,12 +93,13 @@ std::vector<std::string> Console::ReadInput()
     
     std::string Input; 
     // reading the input
+    std::cout.flush(); 
     std::getline(std::cin,Input);
     std::string TempInput;
     TempInput.resize(Input.size() + 5);  
     int count = 0; 
     std::vector<std::string> UserInput;
-    // ls -la
+    // ls -la#include <regex>
     Input.push_back('\n'); 
     for(auto c : Input)
     {
@@ -109,6 +121,11 @@ std::vector<std::string> Console::ReadInput()
             TempInput.resize(Input.size() + 5); 
         }
 
+    }
+    
+    for(auto& clean : UserInput)
+    {
+        clean = TrimNullByte(clean); 
     }
     
     return UserInput; 

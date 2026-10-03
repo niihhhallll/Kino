@@ -1,5 +1,5 @@
 CMakeFiles/Kino.dir/src/main.cpp.o: /home/gigu/cpp/Kino/src/main.cpp \
- /usr/include/stdc-predef.h /home/gigu/cpp/Kino/include/Console.h \
+ /usr/include/stdc-predef.h /home/gigu/cpp/Kino/src/../include/Console.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -204,8 +204,8 @@ CMakeFiles/Kino.dir/src/main.cpp.o: /home/gigu/cpp/Kino/src/main.cpp \
  /usr/include/c++/13/bits/regex.h /usr/include/c++/13/bits/regex.tcc \
  /usr/include/c++/13/bits/regex_executor.h \
  /usr/include/c++/13/bits/regex_executor.tcc \
- /home/gigu/cpp/Kino/include/color.h \
- /home/gigu/cpp/Kino/include/Process.h \
+ /home/gigu/cpp/Kino/src/../include/color.h \
+ /home/gigu/cpp/Kino/src/../include/Process.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
