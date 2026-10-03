@@ -1,5 +1,5 @@
 # Shell For Linux 🐚
-![Kino Shell Screenshot](Screenshot 2026-10-03 23-17-21.png)
+![Kino Shell Screenshot](Kino.png)
 ## Key-Features 🚀
 - #### **This is Build From Scratch using c++**
 - #### **A shell is a program where it can execute commands,redirection queues,etc.**
