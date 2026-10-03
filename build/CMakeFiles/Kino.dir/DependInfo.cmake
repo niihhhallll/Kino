@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gigu/cpp/Kino/src/Console.cpp" "CMakeFiles/Kino.dir/src/Console.cpp.o" "gcc" "CMakeFiles/Kino.dir/src/Console.cpp.o.d"
   "/home/gigu/cpp/Kino/src/Process.cpp" "CMakeFiles/Kino.dir/src/Process.cpp.o" "gcc" "CMakeFiles/Kino.dir/src/Process.cpp.o.d"
   "/home/gigu/cpp/Kino/src/main.cpp" "CMakeFiles/Kino.dir/src/main.cpp.o" "gcc" "CMakeFiles/Kino.dir/src/main.cpp.o.d"
-  "/home/gigu/cpp/Kino/src/redirection.cpp" "CMakeFiles/Kino.dir/src/redirection.cpp.o" "gcc" "CMakeFiles/Kino.dir/src/redirection.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -205,4 +205,4 @@ CMakeFiles/Kino.dir/src/Console.cpp.o: \
  /usr/include/c++/13/bits/regex.h /usr/include/c++/13/bits/regex.tcc \
  /usr/include/c++/13/bits/regex_executor.h \
  /usr/include/c++/13/bits/regex_executor.tcc \
- /home/gigu/cpp/Kino/include/color.h
+ /home/gigu/cpp/Kino/src/../include/color.h

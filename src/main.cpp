@@ -1,22 +1,18 @@
-#include "Console.h"
-#include "Process.h"
-#include "redirection.hpp"
+#include "../include/Console.h"
+#include "../include/Process.h"
 
 int main()
 {
     Console Output;
     Output.WelcomeUser();
-    
+
     while(1)
     {
-        Output.PrintPrompt(); 
-        std::string a; 
+        Output.PrintPrompt();
+        std::string a;
         std::vector<std::string> VecInput = Output.ReadInput();
         Process P(VecInput);
-        Redirection re(VecInput); 
-        re.InitRedirection(); 
-
-        int result = P.ExecuteProcess();        
+        int result = P.ExecuteProcess();
         if (result == 100)
         {
             return 0;
